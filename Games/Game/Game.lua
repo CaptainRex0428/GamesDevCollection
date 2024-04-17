@@ -1,4 +1,4 @@
-project "GameFW"
+project "Game"
    kind "StaticLib"
    language "C++"
    cppdialect "C++20"

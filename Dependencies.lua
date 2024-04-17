@@ -9,9 +9,9 @@ IncludeDir["libpng"] = "%{wks.location}/Dependencies/libpng"
 
 IncludeDir["core"] = "%{wks.location}/Core/include"
 
-IncludeDir["gamefw"] = "%{wks.location}/Games/GameFW/include"
-
+IncludeDir["Game"] = "%{wks.location}/Games/Game/include"
 IncludeDir["Pong"] = "%{wks.location}/Games/Pong/include"
+IncludeDir["SpriteShip"] = "%{wks.location}/Games/Pong/include"
 
 LibraryDir = {}
 

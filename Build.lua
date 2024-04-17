@@ -12,10 +12,10 @@ workspace "GamesDevCollection"
 OutputDir = "%{cfg.system}-%{cfg.architecture}/%{cfg.buildcfg}"
 
 group ""
-   include "App/Build-App.lua"
+   include "App/App.lua"
 
 group "Core"
-	include "Core/Build-Core.lua"
+	include "Core/Core.lua"
    
 group "Dependencies"
    include "Dependencies/glad/glad.lua"
@@ -28,8 +28,8 @@ group "Dependencies"
 group "Dependencies/Examples"
    include "Dependencies/SDL_image/SDL_image_example.lua"
      
-
 group "Games"
-   include "Games/GameFW/GameFW.lua"
    include "Games/Pong/Pong.lua"
    include "Games/SpriteShip/SpriteShip.lua"
+group "Games/Framework"
+   include "Games/Game/Game.lua"

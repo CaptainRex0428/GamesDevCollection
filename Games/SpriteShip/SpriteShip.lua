@@ -13,10 +13,7 @@ project "SpriteShip"
 
      "%{IncludeDir.core}",
      "%{IncludeDir.SDL2}",
-     "%{IncludeDir.SDL_image}",
-     "%{IncludeDir.gamefw}",
-     "%{IncludeDir.zlib}",
-     "%{IncludeDir.libpng}"
+     "%{IncludeDir.SDL_image}"
    }
 
    links
@@ -24,10 +21,7 @@ project "SpriteShip"
      "Core",
      "SDL2",
      "SDL2main",
-     "SDL_image",
-     "libpng",
-     "zlib",
-     "GameFW"
+     "SDL_image"
    }
    
    location "%{wks.location}/settings"
