@@ -1,6 +1,6 @@
 include "Dependencies.lua"
 
-workspace "GamesTemplate"
+workspace "GamesDevCollection"
    architecture "x64"
    configurations { "Debug", "Release", "Dist" }
    startproject "App"
@@ -21,10 +21,13 @@ group "Dependencies"
    include "Dependencies/glad/glad.lua"
    include "Dependencies/glfw/glfw.lua"
    include "Dependencies/SDL2/SDL2.lua"
-   include "Dependencies/SDL_image/SDL_image.lua"
    include "Dependencies/imgui/imgui.lua"
    include "Dependencies/zlib/zlib.lua"
+   include "Dependencies/SDL_image/SDL_image.lua"   
    include "Dependencies/libpng/libpng.lua"
+group "Dependencies/Examples"
+   include "Dependencies/SDL_image/SDL_image_example.lua"
+     
 
 group "Games"
    include "Games/GameFW/GameFW.lua"
