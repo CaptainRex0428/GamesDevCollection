@@ -1,0 +1,22 @@
+# Directories
+.vs/
+.vscode/
+Binaries/
+
+# Files
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.log
+Makefile
+
+*.lib
+*.pdb
+*.obj
+*.pch
+
+
+# Exclude
+!Vendor/Binaries
+bin

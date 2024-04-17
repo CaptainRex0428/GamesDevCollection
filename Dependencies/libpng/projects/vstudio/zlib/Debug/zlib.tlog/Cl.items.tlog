@@ -1,0 +1,11 @@
+L:\Engine\GamesTemplate\Dependencies\zlib\adler32.c;L:\Engine\GamesTemplate\Dependencies\libpng\projects\vstudio\zlib\Debug\adler32.obj
+L:\Engine\GamesTemplate\Dependencies\zlib\compress.c;L:\Engine\GamesTemplate\Dependencies\libpng\projects\vstudio\zlib\Debug\compress.obj
+L:\Engine\GamesTemplate\Dependencies\zlib\crc32.c;L:\Engine\GamesTemplate\Dependencies\libpng\projects\vstudio\zlib\Debug\crc32.obj
+L:\Engine\GamesTemplate\Dependencies\zlib\deflate.c;L:\Engine\GamesTemplate\Dependencies\libpng\projects\vstudio\zlib\Debug\deflate.obj
+L:\Engine\GamesTemplate\Dependencies\zlib\infback.c;L:\Engine\GamesTemplate\Dependencies\libpng\projects\vstudio\zlib\Debug\infback.obj
+L:\Engine\GamesTemplate\Dependencies\zlib\inffast.c;L:\Engine\GamesTemplate\Dependencies\libpng\projects\vstudio\zlib\Debug\inffast.obj
+L:\Engine\GamesTemplate\Dependencies\zlib\inflate.c;L:\Engine\GamesTemplate\Dependencies\libpng\projects\vstudio\zlib\Debug\inflate.obj
+L:\Engine\GamesTemplate\Dependencies\zlib\inftrees.c;L:\Engine\GamesTemplate\Dependencies\libpng\projects\vstudio\zlib\Debug\inftrees.obj
+L:\Engine\GamesTemplate\Dependencies\zlib\trees.c;L:\Engine\GamesTemplate\Dependencies\libpng\projects\vstudio\zlib\Debug\trees.obj
+L:\Engine\GamesTemplate\Dependencies\zlib\uncompr.c;L:\Engine\GamesTemplate\Dependencies\libpng\projects\vstudio\zlib\Debug\uncompr.obj
+L:\Engine\GamesTemplate\Dependencies\zlib\zutil.c;L:\Engine\GamesTemplate\Dependencies\libpng\projects\vstudio\zlib\Debug\zutil.obj
