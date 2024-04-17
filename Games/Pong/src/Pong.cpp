@@ -85,7 +85,7 @@ bool Pong::Initialize()
 	Get().m_walls.emplace_back(SDL_Rect(0,thickness,thickness,Get().m_resolution_h - thickness));
 
 	// init racket
-	Get().m_racket = new Racket(40.0f,(float)(Get().m_resolution_h/2),20.0f,200.0f,Color(0.8f,0.2f,0.2f,1.0f));
+	Get().m_racket = new Racket(40.0f,(float)(Get().m_resolution_h/2),20.0f,200.0f,Color(0.8f,0.8f,0.8f,1.0f));
 
 	//init ball
 	Get().m_ball = new Ball((float)(Get().m_resolution_w / 2), (float)(Get().m_resolution_h / 2), 25, 25, DefaultBallColor);
@@ -203,7 +203,7 @@ void Pong::UpdateGame()
 void Pong::GenerateOuput()
 {
 	// BKG
-	Color bkgcolor(0.2f, 0.5f, 1.0f, 1.0f);
+	Color bkgcolor(0.2f, 0.1f, 0.3f, 1.0f);
 	SDL_SetRenderDrawColor(m_Renderer,bkgcolor);
 	SDL_RenderClear(m_Renderer);
 

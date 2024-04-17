@@ -1,24 +1,24 @@
-# C++ Project Starter Template
+# C++游戏开发合集（更新中）
 
-This is a little quick-start project template for C++ projects which utilise a Core/App project architecture. There are two included projects - one called _Core_, and one called _App_. [Premake](https://github.com/premake/premake-core) is used to generate project files.
+## 启动
 
-Core builds into a static library and is meant to contain common code intended for use in multiple applications. App builds into an executable and links the Core static library, as well as provides an include path to Core's code.
+1. 直接clone工程或者下载即可
+2. 打开`Script/`文件夹
+3. 运行`Setup-Windows.bat` 
+4. 在根目录会生成`GamesDevCollection.sln`文件和`settings/`文件夹
+5. 使用Visual Studio 2022打开`GamesDevCollection.sln`
+6. 将`Game`下的任一游戏设置为启动项（后期更新将会集成到一起）
+    
+    ![Untitled](img/Project.png)
+    
+7. 编译即可运行
 
-The `Scripts/` directory contains build scripts for Windows and Linux, and the `Vendor/` directory contains Premake binaries (currently version `5.0-beta2`).
+## 目录
 
-## Getting Started
-1. Clone this repository or use the "Use this template" button on GitHub to quickly set up your own repository based on this template
-2. `App/` and `Core/` are the two projects - you can edit the names of these folders and their contents to suit
-3. The three included Premake build files are `Build.lua`, `Core/Build-Core.lua` and `App/Build-App.lua` - you can edit these to customise your build configurations, edit the names of your projects and workspace/solution, etc.
-4. Open the `Scripts/` directory and run the appropriate `Setup` script to generate projects files. You can edit the setup scripts to change the type of project that is generated - out of the box they are set to Visual Studio 2022 for Windows and gmake2 for Linux.
-
-Note that no macOS setup script is currently provided; you can duplicate the Linux script and adjust accordingly.
-
-## Included
-- Some example code (in `App/Source` and `Core/Source`) to provide a starting point and test
-- Simple `.gitignore` to ignore project files and binaries
-- Premake binaries for Win/Mac/Linux (`v5.0-beta2`)
-
-## License
-- UNLICENSE for this repository (see `UNLICENSE.txt` for more details)
-- Premake is licensed under BSD 3-Clause (see included LICENSE.txt file for more details)
+1. Pong
+    
+    ![Untitled](img/Pong.png)
+    
+2. Sprite Ship
+    
+    ![Untitled](img/SpriteShip.png)
